@@ -1,0 +1,20 @@
+[2018-03-13 13:29:44:5647]
+Type:MyNoteWinFormApp.Login
+MethodName:OnLoginButtonClick
+登录返回响应值为NULL
+
+[2018-03-13 14:06:32:6592]
+Type:MyNoteWinFormApp.Login
+MethodName:OnLoginButtonClick
+登录结果：
+
+[2018-03-13 14:06:35:0635]
+Type:MyNoteWinFormApp.Login
+MethodName:OnLoginButtonClick
+登录结果：
+
+[2018-03-13 14:10:36:9557]
+Type:MyNoteWinFormApp.ListNote
+MethodName:RefreshCurrentNotes
+
+

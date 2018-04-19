@@ -1,0 +1,13 @@
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Note\bin\Debug\MyNote.DataAccess.Notes.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Note\bin\Debug\MyNote.DataAccess.Notes.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Note\bin\Debug\MyNote.Contracts.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Note\bin\Debug\MyNote.DataAccess.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Note\bin\Debug\MyNote.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Note\bin\Debug\Newtonsoft.Json.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Note\bin\Debug\MyNote.Contracts.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Note\bin\Debug\MyNote.DataAccess.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Note\bin\Debug\MyNote.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Note\bin\Debug\Newtonsoft.Json.xml
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Note\obj\Debug\MyNote.DataAccess.Notes.csprojResolveAssemblyReference.cache
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Note\obj\Debug\MyNote.DataAccess.Notes.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Note\obj\Debug\MyNote.DataAccess.Notes.pdb

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>F:\My Projects\MyNote\Code\MyNoteWebHost</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/Ionic.Zlib.dll">
+      <publishTime>08/07/2011 10:01:51</publishTime>
+    </File>
+    <File Include="bin/MyNote.Business.Common.dll">
+      <publishTime>03/28/2018 14:44:23</publishTime>
+    </File>
+    <File Include="bin/MyNote.Business.Common.pdb">
+      <publishTime>11/13/2017 00:45:55</publishTime>
+    </File>
+    <File Include="bin/MyNote.Business.Config.dll">
+      <publishTime>03/28/2018 14:44:23</publishTime>
+    </File>
+    <File Include="bin/MyNote.Business.Config.pdb">
+      <publishTime>11/13/2017 00:45:55</publishTime>
+    </File>
+    <File Include="bin/MyNote.Business.Notes.dll">
+      <publishTime>03/28/2018 14:44:23</publishTime>
+    </File>
+    <File Include="bin/MyNote.Business.NoteUser.dll">
+      <publishTime>03/28/2018 14:44:23</publishTime>
+    </File>
+    <File Include="bin/MyNote.Business.NoteUser.pdb">
+      <publishTime>11/13/2017 00:45:55</publishTime>
+    </File>
+    <File Include="bin/MyNote.Common.dll">
+      <publishTime>03/27/2018 20:42:25</publishTime>
+    </File>
+    <File Include="bin/MyNote.Common.pdb">
+      <publishTime>11/09/2017 14:10:55</publishTime>
+    </File>
+    <File Include="bin/MyNote.Contracts.dll">
+      <publishTime>03/28/2018 14:44:23</publishTime>
+    </File>
+    <File Include="bin/MyNote.Contracts.pdb">
+      <publishTime>11/13/2017 00:45:54</publishTime>
+    </File>
+    <File Include="bin/MyNote.DataAccess.Common.dll">
+      <publishTime>03/27/2018 20:42:25</publishTime>
+    </File>
+    <File Include="bin/MyNote.DataAccess.Config.dll">
+      <publishTime>03/28/2018 14:44:23</publishTime>
+    </File>
+    <File Include="bin/MyNote.DataAccess.Config.pdb">
+      <publishTime>11/13/2017 00:45:54</publishTime>
+    </File>
+    <File Include="bin/MyNote.DataAccess.Notes.dll">
+      <publishTime>03/28/2018 14:44:23</publishTime>
+    </File>
+    <File Include="bin/MyNote.DataAccess.NoteUser.dll">
+      <publishTime>03/28/2018 14:44:23</publishTime>
+    </File>
+    <File Include="bin/MyNote.DataAccess.NoteUser.pdb">
+      <publishTime>11/13/2017 00:45:54</publishTime>
+    </File>
+    <File Include="bin/MyNote.EFDataAccess.dll">
+      <publishTime>03/28/2018 14:44:23</publishTime>
+    </File>
+    <File Include="bin/MyNote.WebApi.Common.dll">
+      <publishTime>03/28/2018 14:44:23</publishTime>
+    </File>
+    <File Include="bin/MyNote.WebApi.Common.pdb">
+      <publishTime>11/13/2017 00:45:55</publishTime>
+    </File>
+    <File Include="bin/MyNote.WebApi.Config.dll">
+      <publishTime>03/28/2018 14:44:24</publishTime>
+    </File>
+    <File Include="bin/MyNote.WebApi.Config.pdb">
+      <publishTime>11/13/2017 00:45:56</publishTime>
+    </File>
+    <File Include="bin/MyNote.WebApi.Notes.dll">
+      <publishTime>03/28/2018 14:44:24</publishTime>
+    </File>
+    <File Include="bin/MyNote.WebApi.NoteUser.dll">
+      <publishTime>03/28/2018 14:44:24</publishTime>
+    </File>
+    <File Include="bin/MyNote.WebApi.NoteUser.pdb">
+      <publishTime>11/13/2017 00:45:56</publishTime>
+    </File>
+    <File Include="bin/MyNote.WebHost.dll">
+      <publishTime>03/28/2018 14:44:24</publishTime>
+    </File>
+    <File Include="bin/MyNote.WebHost.pdb">
+      <publishTime>11/13/2017 00:45:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 04:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 04:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 04:03:46</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Net.Http.Formatting.resources.dll">
+      <publishTime>01/28/2015 04:02:44</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.resources.dll">
+      <publishTime>01/28/2015 04:02:56</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.WebHost.resources.dll">
+      <publishTime>01/28/2015 04:03:48</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/09/2017 00:04:14</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/27/2018 20:42:33</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

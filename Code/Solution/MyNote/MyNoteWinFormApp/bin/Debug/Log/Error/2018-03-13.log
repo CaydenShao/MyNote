@@ -1,0 +1,20 @@
+[2018-03-13 13:29:41:6494]
+Message:发生一个或多个错误。
+Type:System.AggregateException
+Source:mscorlib
+Method:Void ThrowIfExceptional(Boolean)
+StackTrace:   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 MyNoteWebApiClient.Managements.NoteUser.UserManager.Login(LoginRequest request, SignatureCheckInfo signatureCheckInfo) 位置 F:\My Projects\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\Managements\NoteUser\UserManager.cs:行号 136
+
+[2018-03-13 14:05:40:9453]
+Message:发生一个或多个错误。
+Type:System.AggregateException
+Source:mscorlib
+Method:Void ThrowIfExceptional(Boolean)
+StackTrace:   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 MyNoteWebApiClient.Managements.Config.SysInfoManager.GetServerDateTime(PublicCheckInfo publicCheckInfo) 位置 F:\My Projects\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\Managements\Config\SysInfoManager.cs:行号 41
+

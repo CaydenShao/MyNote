@@ -1,0 +1,20 @@
+F:\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\bin\Debug\MyNote.DataAccess.Config.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\bin\Debug\MyNote.DataAccess.Config.pdb
+F:\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\obj\Debug\MyNote.DataAccess.Config.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\obj\Debug\MyNote.DataAccess.Config.pdb
+F:\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\obj\Debug\MyNote.DataAccess.Config.csprojResolveAssemblyReference.cache
+F:\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\bin\Debug\MyNote.Contracts.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\bin\Debug\MyNote.Contracts.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\bin\Debug\MyNote.DataAccess.Config.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\bin\Debug\MyNote.DataAccess.Config.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\bin\Debug\MyNote.Contracts.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\bin\Debug\MyNote.DataAccess.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\bin\Debug\MyNote.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\bin\Debug\Newtonsoft.Json.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\bin\Debug\MyNote.Contracts.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\bin\Debug\MyNote.DataAccess.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\bin\Debug\MyNote.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\bin\Debug\Newtonsoft.Json.xml
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\obj\Debug\MyNote.DataAccess.Config.csprojResolveAssemblyReference.cache
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\obj\Debug\MyNote.DataAccess.Config.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Config\obj\Debug\MyNote.DataAccess.Config.pdb

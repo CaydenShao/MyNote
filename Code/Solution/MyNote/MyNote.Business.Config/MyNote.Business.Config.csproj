@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{728CE128-079E-466B-8B21-69B894CEBFE6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyNote.Business.Config</RootNamespace>
+    <AssemblyName>MyNote.Business.Config</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\FtpConfigBusinessFactory.cs" />
+    <Compile Include="Business\SysInfoBusinessFactory.cs" />
+    <Compile Include="Business\V1\FtpConfigBusinessV1.cs" />
+    <Compile Include="Business\V1\SysInfoBusinessV1.cs" />
+    <Compile Include="Business\V2\FtpConfigBusinessV2.cs" />
+    <Compile Include="Business\V2\SysInfoBusinessV2.cs" />
+    <Compile Include="Interface\IFtpConfigManager.cs" />
+    <Compile Include="Interface\ISysInfoManager.cs" />
+    <Compile Include="Manager\FtpConfigManager.cs" />
+    <Compile Include="Manager\SysInfoManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyNote.Business.Common\MyNote.Business.Common.csproj">
+      <Project>{ba34fced-2135-4251-a6ed-1edfc6034aee}</Project>
+      <Name>MyNote.Business.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyNote.Common\MyNote.Common.csproj">
+      <Project>{098cd172-583c-4205-ad24-88116b2d6580}</Project>
+      <Name>MyNote.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyNote.Contracts.NoteUser\MyNote.Contracts.csproj">
+      <Project>{5d559361-75ba-47e3-8eb1-ba1412ebbff9}</Project>
+      <Name>MyNote.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyNote.DataAccess.Config\MyNote.DataAccess.Config.csproj">
+      <Project>{5f91a5dd-59a8-489d-8036-d09c0945c20d}</Project>
+      <Name>MyNote.DataAccess.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyNote.EFDataAccess\MyNote.EFDataAccess.csproj">
+      <Project>{162ED6BC-1D8F-43C4-8F71-41DCBFD85EFF}</Project>
+      <Name>MyNote.EFDataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

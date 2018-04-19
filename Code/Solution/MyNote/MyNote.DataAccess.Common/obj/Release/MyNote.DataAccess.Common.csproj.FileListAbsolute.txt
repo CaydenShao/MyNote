@@ -1,0 +1,5 @@
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Common\bin\Release\MyNote.DataAccess.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Common\bin\Release\MyNote.DataAccess.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Common\obj\Release\MyNote.DataAccess.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Common\obj\Release\MyNote.DataAccess.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Common\obj\Release\MyNote.DataAccess.Common.csprojResolveAssemblyReference.cache

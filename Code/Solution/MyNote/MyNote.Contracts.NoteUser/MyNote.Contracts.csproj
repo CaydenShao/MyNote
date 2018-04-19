@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D559361-75BA-47E3-8EB1-BA1412EBBFF9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyNote.Contracts</RootNamespace>
+    <AssemblyName>MyNote.Contracts</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bases\DataContractBase.cs" />
+    <Compile Include="DataContracts\Config\Requests\GetSysInfoByIdRequest.cs" />
+    <Compile Include="DataContracts\Config\Requests\GetSysInfoByNameRequest.cs" />
+    <Compile Include="DataContracts\Notes\NoteCommentContent.cs" />
+    <Compile Include="DataContracts\Notes\Note.cs" />
+    <Compile Include="DataContracts\Notes\NoteApprovedRecord.cs" />
+    <Compile Include="DataContracts\Notes\NoteBrowsedRecord.cs" />
+    <Compile Include="DataContracts\Notes\NoteComment.cs" />
+    <Compile Include="DataContracts\Notes\NoteContent.cs" />
+    <Compile Include="DataContracts\Notes\Requests\AddContentRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\AddNoteAndContentsRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\AddNoteBrowsedRecordRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\AddNoteCommentContentRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\AddNoteCommentRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\AddNoteRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\ApproveNoteRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\GetNoteApprovedRecordsByNoteIdAndUserIdRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\GetNoteApprovedRecordsByNoteIdRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\GetNoteApprovedRecordsByUserIdRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\GetNoteBrowsedRecordsByNoteIdRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\GetNoteBrowsedRecordsByUserIdRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\GetNoteByIdRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\GetNoteCommentByIdRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\GetNoteCommentContentByIdRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\GetNoteCommentContentsByCommentIdRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\GetNoteCommentsByNoteIdRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\GetNoteContentsByIdRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\GetNoteContentsByNoteIdRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\GetNotesByAuthorIdRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\NoteGetBrowsedRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\SearchNotesByAuthorIdRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\SearchNotesByKeyStrRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\SearchNotesByKeyStrAndAuthorIdRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\SearchNotesByTimeSpanAndAuthorIdRequest.cs" />
+    <Compile Include="DataContracts\Notes\Requests\SearchNotesByTimeSpanRequest.cs" />
+    <Compile Include="DataContracts\Notes\Responses\AddNoteAndContentsResponse.cs" />
+    <Compile Include="DataContracts\Notes\Responses\SearchNotesResponse.cs" />
+    <Compile Include="DataContracts\NoteUser\Requests\CheckPhoneNumberRegisteredRequest.cs" />
+    <Compile Include="DataContracts\NoteUser\Requests\CheckVerificationRequest.cs" />
+    <Compile Include="DataContracts\NoteUser\Requests\GenerateVerificationRequest.cs" />
+    <Compile Include="DataContracts\NoteUser\Requests\RegisterRequest.cs" />
+    <Compile Include="DataContracts\PublicRequest.cs" />
+    <Compile Include="Bases\PublicRequired.cs" />
+    <Compile Include="Bases\RequestBase.cs" />
+    <Compile Include="Bases\SignatureRequired.cs" />
+    <Compile Include="Bases\TokenRequired.cs" />
+    <Compile Include="DataContracts\Config\FtpConfig.cs" />
+    <Compile Include="DataContracts\Config\Requests\GetFtpConfigByIdRequest.cs" />
+    <Compile Include="DataContracts\Config\Requests\GetFtpConfigByNameRequest.cs" />
+    <Compile Include="DataContracts\Config\SysInfo.cs" />
+    <Compile Include="DataContracts\NoteUser\Requests\GetUserByPhoneNumberRequest.cs" />
+    <Compile Include="DataContracts\NoteUser\Requests\GetUserByIdRequest.cs" />
+    <Compile Include="DataContracts\NoteUser\Requests\GetUserByTokenRequest.cs" />
+    <Compile Include="DataContracts\NoteUser\Requests\GetVerificationByIdRequest.cs" />
+    <Compile Include="DataContracts\NoteUser\Requests\GetVerificationByPhoneNumberRequest.cs" />
+    <Compile Include="DataContracts\NoteUser\Requests\LoginRequest.cs" />
+    <Compile Include="DataContracts\NoteUser\User.cs" />
+    <Compile Include="DataContracts\NoteUser\Verification.cs" />
+    <Compile Include="DataContracts\Response.cs" />
+    <Compile Include="WebApiInterface\Config\IFtpConfigServices.cs" />
+    <Compile Include="WebApiInterface\Config\ISysInfoServices.cs" />
+    <Compile Include="WebApiInterface\Notes\INoteApprovedRecordServices.cs" />
+    <Compile Include="WebApiInterface\Notes\INoteBrowsedRecordServices.cs" />
+    <Compile Include="WebApiInterface\Notes\INoteCommentContentServices.cs" />
+    <Compile Include="WebApiInterface\Notes\INoteCommentServices.cs" />
+    <Compile Include="WebApiInterface\Notes\INoteContentServices.cs" />
+    <Compile Include="WebApiInterface\Notes\INoteServices.cs" />
+    <Compile Include="WebApiInterface\NoteUser\INoteUserServices.cs" />
+    <Compile Include="WebApiInterface\NoteUser\IVerificationService.cs" />
+    <Compile Include="DataContracts\TokenRequest.cs" />
+    <Compile Include="Bases\ResponseBase.cs" />
+    <Compile Include="DataContracts\SignedRequest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MyNote.Common\MyNote.Common.csproj">
+      <Project>{098CD172-583C-4205-AD24-88116B2D6580}</Project>
+      <Name>MyNote.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

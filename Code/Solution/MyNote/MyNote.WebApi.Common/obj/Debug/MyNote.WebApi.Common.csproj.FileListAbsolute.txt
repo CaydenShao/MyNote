@@ -1,0 +1,42 @@
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\obj\Debug\MyNote.WebApi.Common.csprojResolveAssemblyReference.cache
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.WebApi.Common.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.WebApi.Common.pdb
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\Ionic.Zlib.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\System.Web.Http.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\System.Web.Http.xml
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\obj\Debug\MyNote.WebApi.Common.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\obj\Debug\MyNote.WebApi.Common.pdb
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.Business.Common.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.Business.Common.pdb
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.Contracts.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.Contracts.pdb
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.Common.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.DataAccess.NoteUser.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.Common.pdb
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.DataAccess.NoteUser.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.WebApi.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.WebApi.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\Ionic.Zlib.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.Business.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.Contracts.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\System.Web.Http.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.EFDataAccess.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.DataAccess.NoteUser.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\Newtonsoft.Json.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\EntityFramework.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.DataAccess.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.Business.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.Contracts.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\System.Web.Http.xml
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.EFDataAccess.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.DataAccess.NoteUser.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\Newtonsoft.Json.xml
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\EntityFramework.xml
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\MyNote.DataAccess.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\obj\Debug\MyNote.WebApi.Common.csprojResolveAssemblyReference.cache
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\obj\Debug\MyNote.WebApi.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.Common\obj\Debug\MyNote.WebApi.Common.pdb

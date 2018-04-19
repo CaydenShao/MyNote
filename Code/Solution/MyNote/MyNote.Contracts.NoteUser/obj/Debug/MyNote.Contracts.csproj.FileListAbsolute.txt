@@ -1,0 +1,13 @@
+F:\MyNote\Code\Solution\MyNote\MyNote.Contracts.NoteUser\bin\Debug\MyNote.Contracts.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.Contracts.NoteUser\bin\Debug\MyNote.Contracts.pdb
+F:\MyNote\Code\Solution\MyNote\MyNote.Contracts.NoteUser\obj\Debug\MyNote.Contracts.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.Contracts.NoteUser\obj\Debug\MyNote.Contracts.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Contracts.NoteUser\bin\Debug\MyNote.Contracts.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Contracts.NoteUser\bin\Debug\MyNote.Contracts.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Contracts.NoteUser\bin\Debug\MyNote.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Contracts.NoteUser\bin\Debug\Newtonsoft.Json.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Contracts.NoteUser\bin\Debug\MyNote.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Contracts.NoteUser\bin\Debug\Newtonsoft.Json.xml
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Contracts.NoteUser\obj\Debug\MyNote.Contracts.csprojResolveAssemblyReference.cache
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Contracts.NoteUser\obj\Debug\MyNote.Contracts.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Contracts.NoteUser\obj\Debug\MyNote.Contracts.pdb

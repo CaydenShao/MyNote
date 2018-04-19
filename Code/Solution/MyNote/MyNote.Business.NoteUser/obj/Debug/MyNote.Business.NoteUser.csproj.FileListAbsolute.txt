@@ -1,0 +1,34 @@
+F:\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.Business.NoteUser.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.Business.NoteUser.pdb
+F:\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.Common.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.Common.pdb
+F:\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\obj\Debug\MyNote.Business.NoteUser.csprojResolveAssemblyReference.cache
+F:\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\obj\Debug\MyNote.Business.NoteUser.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\obj\Debug\MyNote.Business.NoteUser.pdb
+F:\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.Business.Common.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.Contracts.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.DataAccess.NoteUser.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.Business.Common.pdb
+F:\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.Contracts.pdb
+F:\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.DataAccess.NoteUser.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.Business.NoteUser.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.Business.NoteUser.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.Business.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.Contracts.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.DataAccess.NoteUser.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.EFDataAccess.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\Newtonsoft.Json.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.DataAccess.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\EntityFramework.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.Business.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.Contracts.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.DataAccess.NoteUser.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.EFDataAccess.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\Newtonsoft.Json.xml
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\MyNote.DataAccess.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\bin\Debug\EntityFramework.xml
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\obj\Debug\MyNote.Business.NoteUser.csprojResolveAssemblyReference.cache
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\obj\Debug\MyNote.Business.NoteUser.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.NoteUser\obj\Debug\MyNote.Business.NoteUser.pdb

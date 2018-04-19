@@ -1,0 +1,32 @@
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.WebApi.NoteUser.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.WebApi.NoteUser.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\System.Web.Http.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\Newtonsoft.Json.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\System.Web.Http.xml
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\zh-Hans\System.Web.Http.resources.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\obj\Release\MyNote.WebApi.NoteUser.csprojResolveAssemblyReference.cache
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\obj\Release\MyNote.WebApi.NoteUser.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\obj\Release\MyNote.WebApi.NoteUser.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.Business.NoteUser.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.Business.NoteUser.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.Contracts.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.Contracts.pdb
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\obj\Release\MyNote.WebApi.NoteUser.csprojResolveAssemblyReference.cache
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\obj\Release\MyNote.WebApi.NoteUser.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\obj\Release\MyNote.WebApi.NoteUser.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.Business.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.WebApi.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.DataAccess.NoteUser.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\Ionic.Zlib.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.Business.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.WebApi.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.DataAccess.NoteUser.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\Newtonsoft.Json.xml
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.DataAccess.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.DataAccess.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.EFDataAccess.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\EntityFramework.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\MyNote.EFDataAccess.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.WebApi.NoteUser\bin\Release\EntityFramework.xml

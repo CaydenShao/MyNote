@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7F8DF2B-8BCA-499D-B406-81456C743C62}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyNote.WebApi.NoteUser</RootNamespace>
+    <AssemblyName>MyNote.WebApi.NoteUser</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\NoteUserController.cs" />
+    <Compile Include="Controllers\VerificationController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyNote.Business.Common\MyNote.Business.Common.csproj">
+      <Project>{BA34FCED-2135-4251-A6ED-1EDFC6034AEE}</Project>
+      <Name>MyNote.Business.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyNote.Business.NoteUser\MyNote.Business.NoteUser.csproj">
+      <Project>{364db733-b031-4c50-9e82-01d08a17cff0}</Project>
+      <Name>MyNote.Business.NoteUser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyNote.Common\MyNote.Common.csproj">
+      <Project>{098CD172-583C-4205-AD24-88116B2D6580}</Project>
+      <Name>MyNote.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyNote.Contracts.NoteUser\MyNote.Contracts.csproj">
+      <Project>{5d559361-75ba-47e3-8eb1-ba1412ebbff9}</Project>
+      <Name>MyNote.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyNote.WebApi.Common\MyNote.WebApi.Common.csproj">
+      <Project>{dff6893f-9cfa-4d1f-b84e-db3e60eea6a6}</Project>
+      <Name>MyNote.WebApi.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

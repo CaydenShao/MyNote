@@ -1,0 +1,10 @@
+[2018-03-12 14:04:06:3407]
+Message:发生一个或多个错误。
+Type:System.AggregateException
+Source:mscorlib
+Method:Void ThrowIfExceptional(Boolean)
+StackTrace:   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 MyNoteWebApiClient.Managements.Config.SysInfoManager.GetServerDateTime(PublicCheckInfo publicCheckInfo) 位置 F:\My Projects\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\Managements\Config\SysInfoManager.cs:行号 41
+

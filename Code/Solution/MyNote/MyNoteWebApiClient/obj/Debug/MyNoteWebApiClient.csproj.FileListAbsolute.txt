@@ -1,0 +1,26 @@
+F:\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\MyNoteWebApiClient.dll
+F:\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\MyNoteWebApiClient.pdb
+F:\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\MyNote.Common.dll
+F:\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\MyNote.Contracts.dll
+F:\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\MyNote.Common.pdb
+F:\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\MyNote.Contracts.pdb
+F:\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\obj\Debug\MyNoteWebApiClient.csprojResolveAssemblyReference.cache
+F:\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\obj\Debug\MyNoteWebApiClient.dll
+F:\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\obj\Debug\MyNoteWebApiClient.pdb
+F:\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\System.Net.Http.Formatting.dll
+F:\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\System.Net.Http.Formatting.xml
+F:\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\MyNoteWebApiClient.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\MyNoteWebApiClient.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\MyNote.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\MyNote.Contracts.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\System.Net.Http.Formatting.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\Newtonsoft.Json.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\MyNote.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\MyNote.Contracts.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\System.Net.Http.Formatting.xml
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\Newtonsoft.Json.xml
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\obj\Debug\MyNoteWebApiClient.csprojResolveAssemblyReference.cache
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\obj\Debug\MyNoteWebApiClient.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNoteWebApiClient\obj\Debug\MyNoteWebApiClient.pdb

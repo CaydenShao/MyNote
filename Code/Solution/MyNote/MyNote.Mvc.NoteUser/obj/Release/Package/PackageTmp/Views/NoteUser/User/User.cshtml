@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "User";
+    // Layout = null; // 去掉默认模板页
+}
+
+<h2>User</h2>
+
+@if (Model == null)
+{
+    <p>User not found</p>
+}
+else
+{
+    <p>Name：</p>
+    <p>@Model.ResultData.Name;</p>
+}
+

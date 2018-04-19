@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{364DB733-B031-4C50-9E82-01D08A17CFF0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyNote.Business.NoteUser</RootNamespace>
+    <AssemblyName>MyNote.Business.NoteUser</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\NoteUserBusinessFactory.cs" />
+    <Compile Include="Business\V1\NoteUserBusinessV1.cs" />
+    <Compile Include="Business\V1\VerificationBusinessV1.cs" />
+    <Compile Include="Business\V2\NoteUserBusinessV2.cs" />
+    <Compile Include="Business\V2\VerificationBusinessV2.cs" />
+    <Compile Include="Business\VerificationBisinessFactory.cs" />
+    <Compile Include="Interface\INoteUserManager.cs" />
+    <Compile Include="Interface\IVerificationManager.cs" />
+    <Compile Include="Manager\NoteUserManager.cs" />
+    <Compile Include="Manager\VerificationManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyNote.Business.Common\MyNote.Business.Common.csproj">
+      <Project>{ba34fced-2135-4251-a6ed-1edfc6034aee}</Project>
+      <Name>MyNote.Business.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyNote.Common\MyNote.Common.csproj">
+      <Project>{098cd172-583c-4205-ad24-88116b2d6580}</Project>
+      <Name>MyNote.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyNote.Contracts.NoteUser\MyNote.Contracts.csproj">
+      <Project>{5D559361-75BA-47E3-8EB1-BA1412EBBFF9}</Project>
+      <Name>MyNote.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyNote.DataAccess.NoteUser\MyNote.DataAccess.NoteUser.csproj">
+      <Project>{dd979b63-637d-4705-8ebc-5f95e042799f}</Project>
+      <Name>MyNote.DataAccess.NoteUser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyNote.EFDataAccess\MyNote.EFDataAccess.csproj">
+      <Project>{162ED6BC-1D8F-43C4-8F71-41DCBFD85EFF}</Project>
+      <Name>MyNote.EFDataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

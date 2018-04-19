@@ -1,0 +1,5 @@
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess\bin\Debug\MyNote.DataAccess.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess\bin\Debug\MyNote.DataAccess.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess\obj\Debug\MyNote.DataAccess.csproj.CoreCompileInputs.cache
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess\obj\Debug\MyNote.DataAccess.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess\obj\Debug\MyNote.DataAccess.pdb

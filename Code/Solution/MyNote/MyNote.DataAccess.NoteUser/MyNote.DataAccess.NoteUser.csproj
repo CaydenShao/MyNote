@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DD979B63-637D-4705-8EBC-5F95E042799F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyNote.DataAccess.NoteUser</RootNamespace>
+    <AssemblyName>MyNote.DataAccess.NoteUser</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL\UserDAL.cs" />
+    <Compile Include="DAL\VerificationDAL.cs" />
+    <Compile Include="Extensions\UserExtension.cs" />
+    <Compile Include="Extensions\VerificationExtension.cs" />
+    <Compile Include="Entities\UserEntity.cs" />
+    <Compile Include="Entities\VerificationEntity.cs" />
+    <Compile Include="ProcedureContainer\SpNamesOfNoteUser.cs" />
+    <Compile Include="ProcedureContainer\SpNamesOfVerification.cs" />
+    <Compile Include="ProcedureContainer\SpParamsOfNoteUser.cs" />
+    <Compile Include="ProcedureContainer\SpParamsOfVerification.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyNote.Common\MyNote.Common.csproj">
+      <Project>{098cd172-583c-4205-ad24-88116b2d6580}</Project>
+      <Name>MyNote.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyNote.Contracts.NoteUser\MyNote.Contracts.csproj">
+      <Project>{5d559361-75ba-47e3-8eb1-ba1412ebbff9}</Project>
+      <Name>MyNote.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyNote.DataAccess.Common\MyNote.DataAccess.Common.csproj">
+      <Project>{697eeffd-4cd4-4808-8610-61abb8ecc96c}</Project>
+      <Name>MyNote.DataAccess.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

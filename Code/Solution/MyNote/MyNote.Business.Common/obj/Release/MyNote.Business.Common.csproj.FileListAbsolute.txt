@@ -1,0 +1,23 @@
+F:\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\MyNote.Business.Common.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\MyNote.Business.Common.pdb
+F:\MyNote\Code\Solution\MyNote\MyNote.Business.Common\obj\Release\MyNote.Business.Common.dll
+F:\MyNote\Code\Solution\MyNote\MyNote.Business.Common\obj\Release\MyNote.Business.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\MyNote.Business.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\MyNote.Business.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\obj\Release\MyNote.Business.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\obj\Release\MyNote.Business.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\MyNote.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\MyNote.Contracts.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\MyNote.DataAccess.NoteUser.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\MyNote.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\MyNote.Contracts.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\MyNote.DataAccess.NoteUser.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\obj\Release\MyNote.Business.Common.csprojResolveAssemblyReference.cache
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\Newtonsoft.Json.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\Newtonsoft.Json.xml
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\MyNote.DataAccess.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\MyNote.DataAccess.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\MyNote.EFDataAccess.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\EntityFramework.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\MyNote.EFDataAccess.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.Business.Common\bin\Release\EntityFramework.xml

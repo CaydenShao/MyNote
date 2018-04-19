@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{162ED6BC-1D8F-43C4-8F71-41DCBFD85EFF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyNote.EFDataAccess</RootNamespace>
+    <AssemblyName>MyNote.EFDataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL\Config\FtpConfigDAL.cs" />
+    <Compile Include="DAL\Config\SysInfoDAL.cs" />
+    <Compile Include="DAL\MyNoteContext.cs" />
+    <Compile Include="DAL\Notes\CommentContentDAL.cs" />
+    <Compile Include="DAL\Notes\NoteApprovedRecordDAL.cs" />
+    <Compile Include="DAL\Notes\NoteBrowsedRecordDAL.cs" />
+    <Compile Include="DAL\Notes\NoteCommentDAL.cs" />
+    <Compile Include="DAL\Notes\NoteContentDAL.cs" />
+    <Compile Include="DAL\Notes\NoteDAL.cs" />
+    <Compile Include="DbInitializers\CreateDatabaseIfNotExistsInitializer.cs" />
+    <Compile Include="DbInitializers\DbInitializer.cs" />
+    <Compile Include="DbInitializers\DropCreateDatabaseAlwaysInitializer.cs" />
+    <Compile Include="Entities\Config\FtpConfigEntity.cs" />
+    <Compile Include="Entities\Config\SysInfoEntity.cs" />
+    <Compile Include="Entities\Notes\CommentContentEntity.cs" />
+    <Compile Include="Entities\Notes\NoteApprovedRecordEntity.cs" />
+    <Compile Include="Entities\Notes\NoteBrowsedRecordEntity.cs" />
+    <Compile Include="Entities\Notes\NoteCommentEntity.cs" />
+    <Compile Include="Entities\Notes\NoteContentEntity.cs" />
+    <Compile Include="Entities\Notes\NoteEntity.cs" />
+    <Compile Include="DAL\NoteUser\UserDAL.cs" />
+    <Compile Include="DAL\NoteUser\VerificationDAL.cs" />
+    <Compile Include="DbInitializers\DropCreateDatabaseIfModelChangesInitializer.cs" />
+    <Compile Include="Entities\NoteUser\UserEntity.cs" />
+    <Compile Include="Entities\NoteUser\VerificationEntity.cs" />
+    <Compile Include="EntityMaps\NoteCommentMap.cs" />
+    <Compile Include="EntityMaps\NoteMap.cs" />
+    <Compile Include="EntityMaps\UserMap.cs" />
+    <Compile Include="Enums\DbInitializerType.cs" />
+    <Compile Include="Extensions\Config\FtpConfigExtension.cs" />
+    <Compile Include="Extensions\Config\SysInfoExtension.cs" />
+    <Compile Include="Extensions\Notes\CommentContentExtension.cs" />
+    <Compile Include="Extensions\Notes\NoteApprovedRecordExtension.cs" />
+    <Compile Include="Extensions\Notes\NoteBrowsedRecordExtension.cs" />
+    <Compile Include="Extensions\Notes\NoteCommentExtension.cs" />
+    <Compile Include="Extensions\Notes\NoteContentExtension.cs" />
+    <Compile Include="Extensions\Notes\NoteExtension.cs" />
+    <Compile Include="Extensions\NoteUser\UserExtension.cs" />
+    <Compile Include="Extensions\NoteUser\VerificationExtension.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MyNote.Contracts.NoteUser\MyNote.Contracts.csproj">
+      <Project>{5d559361-75ba-47e3-8eb1-ba1412ebbff9}</Project>
+      <Name>MyNote.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

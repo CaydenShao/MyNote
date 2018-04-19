@@ -1,0 +1,4 @@
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Common\bin\Debug\MyNote.DataAccess.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Common\bin\Debug\MyNote.DataAccess.Common.pdb
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Common\obj\Debug\MyNote.DataAccess.Common.dll
+F:\My Projects\MyNote\Code\Solution\MyNote\MyNote.DataAccess.Common\obj\Debug\MyNote.DataAccess.Common.pdb
